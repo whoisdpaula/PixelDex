@@ -32,42 +32,53 @@ EXIT
 # Exemplos de uso
 ---
 `````````txt
-> ADD 157 charizardshiny  RARO 51
+> ADD 157 charizardshiny RARO 51
 OK: Pixel(157, charizardshiny, RARO, 51) adicionado
 
 > ADD 202 drakonauta RARO 87
-OK
+OK: Pixel(202, drakonauta, RARO, 87) adicionado
 
 > LIST
-[0] Pixel(157,charizardshiny , RARO, 51)
+[0] Pixel(157, charizardshiny, RARO, 51)
 [1] Pixel(202, drakonauta, RARO, 87)
 
 > LIST-INDEX INORDER
-Pixel(157,charizardshiny , RARO, 51)
+Pixel(157, charizardshiny, RARO, 51)
 Pixel(202, drakonauta, RARO, 87)
 
-> FIND picozinho
-Encontrado: Pixel(157,charizardshiny , RARO, 51)
+> FIND charizardshiny
+Encontrado: Pixel(157, charizardshiny, RARO, 51)
 
-> RANGE a m
-Pixel(157,charizardshiny , RARO, 51)
+> RANGE c m
+Pixel(157, charizardshiny, RARO, 51)
+Pixel(202, drakonauta, RARO, 87)
 
 > REVERSE
-OK
+OK (ordem invertida na coleção)
 
 > MOVE 1 0
-OK
+OK (elemento movido de 1 → 0)
 
 > UNIQUE
-OK (duplicatas removidas)
+OK (duplicatas removidas da coleção)
 
-> REMOVE-INDEX picozinho
-OK (removido do índice). Dica: atualize exibição da coleção.
+> REMOVE-INDEX drakonauta
+OK (removido do índice; a coleção não é alterada)
+
+> REMOVE-COLLECTION 0
+OK (elemento removido da coleção)
+
+> SLICE 0 1
+[0] Pixel(202, drakonauta, RARO, 87)
+
+> HEIGHT
+Altura atual do índice: 1
 
 > EXPORT pixels.json
-Salvo em pixels.json
+Exportado para: pixels.json
 
-> EXIT
+> IMPORT pixels.json
+OK (dados importados)
 `````````
 
 ---
