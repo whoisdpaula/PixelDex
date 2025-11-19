@@ -7,7 +7,7 @@
 # Comandos da CLI 
 ---
 ````
---- Comandos PIXELDEX CLI ---
+
 ADD <id> <nome> <raridade> <poder> 
 FIND <nome|id> 
 REMOVE-INDEX <nome|id> 
@@ -24,7 +24,7 @@ IMPORT <caminho-json>
 EXPORT <caminho-json> 
 HELP 
 EXIT 
------------------------------
+
 
 
 `````````
