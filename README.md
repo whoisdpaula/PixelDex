@@ -7,21 +7,24 @@
 # Comandos da CLI 
 ---
 ````
-ADD <id> <nome> <raridade> <poder>
-FIND <nome|poder|id>
-REMOVE-COLLECTION <index>
-REMOVE-INDEX <key>
-REVERSE
+--- Comandos PIXELDEX CLI ---
+ADD <id> <nome> <raridade> <poder> 
+FIND <nome|id> 
+REMOVE-INDEX <nome|id> 
+REMOVE-COLLECTION <index> 
+REVERSE 
 UNIQUE
-MOVE <fromIndex> <toIndex>
-SLICE <from> <to>
+MOVE
+SLICE
 LIST
 LIST-INDEX <INORDER|PREORDER|POSTORDER>
-RANGE <a> <b>
-IMPORT <caminho-json>           # opcional
-EXPORT <caminho-json>           # opcional
-HELP
-EXIT
+RANGE <a, b> 
+HEIGHT 
+IMPORT <caminho-json>
+EXPORT <caminho-json> 
+HELP 
+EXIT 
+-----------------------------
 
 
 `````````
