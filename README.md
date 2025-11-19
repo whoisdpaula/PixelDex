@@ -1,8 +1,13 @@
 # PixelDex, sua coleção de criaturas 8-bit
+---
+
 
 ---
-#ARQUITETURA
-'''
+
+# Arquitetura
+
+---
+```
 src/
  ├── main/java/
  │    ├── app/cli/                 # Interface com o usuário
