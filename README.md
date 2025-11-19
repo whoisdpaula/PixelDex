@@ -26,6 +26,7 @@ EXIT
 `````````
 
 # Exemplos de uso
+---
 > ADD 157 charizardshiny  RARO 51
 OK: Pixel(157, charizardshiny, RARO, 51) adicionado
 
