@@ -28,6 +28,7 @@ EXIT
 
 # Exemplos de uso
 ---
+`````````txt
 > ADD 157 charizardshiny  RARO 51
 OK: Pixel(157, charizardshiny, RARO, 51) adicionado
 
@@ -64,7 +65,7 @@ OK (removido do índice). Dica: atualize exibição da coleção.
 Salvo em pixels.json
 
 > EXIT
-
+`````````
 
 ---
 
