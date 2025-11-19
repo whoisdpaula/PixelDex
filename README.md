@@ -2,7 +2,25 @@
 # PixelDex, sua coleção de criaturas 8-bit
  O Intuito do PixelDex é gerar uma coleção de Pixels(criaturas de 8 bits) usando lista encadeada genérica para az coleção do usuário  e BST como índice global.
 
-
+---
+# Comandos da CLI 
+---
+ADD <id> <nome> <raridade> <poder>
+FIND <nome|poder|id>
+REMOVE-COLLECTION <index>
+REMOVE-INDEX <key>
+REVERSE
+UNIQUE
+MOVE <fromIndex> <toIndex>
+SLICE <from> <to>
+LIST
+LIST-INDEX <INORDER|PREORDER|POSTORDER>
+RANGE <a> <b>
+IMPORT <caminho-json>           # opcional
+EXPORT <caminho-json>           # opcional
+HELP
+EXIT
+---
 # Arquitetura PixelDex
 
 ```
