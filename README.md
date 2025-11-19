@@ -5,6 +5,7 @@
 ---
 # Comandos da CLI 
 ---
+```
 ADD <id> <nome> <raridade> <poder>
 FIND <nome|poder|id>
 REMOVE-COLLECTION <index>
