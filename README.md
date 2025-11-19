@@ -23,7 +23,49 @@ HELP
 EXIT
 ---
 
-````
+`````````
+
+# Exemplos de uso
+> ADD 157 charizardshiny  RARO 51
+OK: Pixel(157, charizardshiny, RARO, 51) adicionado
+
+> ADD 202 drakonauta RARO 87
+OK
+
+> LIST
+[0] Pixel(157,charizardshiny , RARO, 51)
+[1] Pixel(202, drakonauta, RARO, 87)
+
+> LIST-INDEX INORDER
+Pixel(157,charizardshiny , RARO, 51)
+Pixel(202, drakonauta, RARO, 87)
+
+> FIND picozinho
+Encontrado: Pixel(157,charizardshiny , RARO, 51)
+
+> RANGE a m
+Pixel(157,charizardshiny , RARO, 51)
+
+> REVERSE
+OK
+
+> MOVE 1 0
+OK
+
+> UNIQUE
+OK (duplicatas removidas)
+
+> REMOVE-INDEX picozinho
+OK (removido do índice). Dica: atualize exibição da coleção.
+
+> EXPORT pixels.json
+Salvo em pixels.json
+
+> EXIT
+
+
+---
+
 # Arquitetura PixelDex
 ---
 ```
