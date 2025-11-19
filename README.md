@@ -4,7 +4,7 @@
 
 ---
 
-# Arquitetura
+# Arquitetura PixelDex
 
 ```
 src/
