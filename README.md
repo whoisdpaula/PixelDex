@@ -126,7 +126,7 @@ src/
 
 ---
 `````````
-# Testes
+# Testes Unitários
 `````````txt
 LinkedListTest – insere, remove, move, slice, unique
 BSTTest – inserção, travessias, busca ordenada
