@@ -5,7 +5,7 @@
 ---
 # Comandos da CLI 
 ---
-```
+````
 ADD <id> <nome> <raridade> <poder>
 FIND <nome|poder|id>
 REMOVE-COLLECTION <index>
@@ -22,8 +22,10 @@ EXPORT <caminho-json>           # opcional
 HELP
 EXIT
 ---
-# Arquitetura PixelDex
 
+````
+# Arquitetura PixelDex
+---
 ```
 src/
  ├── main/java/
