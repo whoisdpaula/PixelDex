@@ -124,3 +124,12 @@ src/
        ├── ds/tree/BSTTest.java
        └── integration/FlowTest.java
 
+---
+`````````
+# Testes
+`````````txt
+LinkedListTest – insere, remove, move, slice, unique
+BSTTest – inserção, travessias, busca ordenada
+FlowTest – simula uma sessão real de usuário executando comandos
+`````````
+---
