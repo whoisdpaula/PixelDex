@@ -1,7 +1,7 @@
 
 # PixelDex, sua coleção de criaturas 8-bit
 
-
+O Intuito do PixelDex é gerar uma coleção de Pixels(criaturas de 8 bits) usando lista encadeada genérica para az coleção do usuário  e BST como índice global.
 ---
 
 # Arquitetura PixelDex
