@@ -147,3 +147,6 @@ BSTTest – inserção, travessias, busca ordenada
 FlowTest – simula uma sessão real de usuário executando comandos
 `````````
 ---
+
+# 👩‍💻 Autora
+- Lais De Paula Carneiro - 10418061
